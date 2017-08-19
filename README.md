@@ -1,7 +1,7 @@
 # php2html
 Convert PHP pages to HTML pages
 
-##ENV
+## ENV
 
 - python
 - [scrapy](https://docs.scrapy.org/en/latest/)
@@ -16,8 +16,17 @@ Convert PHP pages to HTML pages
 ```
 scrapy crawl php
 python filesed.py
-
 ```
+
+## FILE 
+
+**You should change following file according to your needs**
+
+  - php2html/spiders/php.py 
+    - spiders file 
+
+  - filesed.py 
+    - replace php to html in the files.
 
 ## ISSUES
 
